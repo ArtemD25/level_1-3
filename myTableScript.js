@@ -195,3 +195,28 @@ const users = [
 ];
 
 DataTable(config1, users);
+
+const config2 = {
+  parent: '#usersTable2',
+  columns: [
+    {title: 'Имя', value: 'name'},
+    {title: 'Фамилия', value: 'surname'},
+    {title: 'Возраст', value: 'age'},
+    {title: 'Country', value: 'country'},
+    {title: 'Color', value: 'color'},
+    {title: 'Number', value: 'num'},
+    {title: 'Id', value: 'id'},
+  ]
+};
+
+const users2 = [
+  {id: 30050, name: 'Вася', surname: 'Петров', age: 12, country: "Albania", color: "white", num: 45},
+  {id: 30050, name: 'Вася', surname: 'Петров', age: 12, country: "Albania", color: "white", num: 45},
+  {id: 30050, name: 'Вася', surname: 'Петров', age: 12, country: "Albania", color: "white", num: 45},
+  {id: 30050, name: 'Вася', surname: 'Петров', age: 12, country: "Albania", color: "white", num: 45},
+  {id: 30050, name: 'Вася', surname: 'Петров', age: 12, country: "Albania", color: "white", num: 45},
+  {id: 30050, name: 'Вася', surname: 'Петров', age: 12, country: "Albania", color: "white", num: 45},
+  {id: 30050, name: 'Вася', surname: 'Петров', age: 12, country: "Albania", color: "white", num: 45},
+];
+
+DataTable(config2, users2);
